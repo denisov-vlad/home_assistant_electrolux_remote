@@ -129,3 +129,6 @@ class Thermostat(Device):
     @property
     def floor_temp_0(self) -> float:
         return float(self._floor_temp_0) / 10
+
+    def floor_temp_1(self) -> float:
+        return float(self._floor_temp_1) / 10
